@@ -1,8 +1,3 @@
-//
-// Created by Administrator on 2020/11/5.
-//
-
-
 #include <jni.h>
 #include <android/log.h>
 #include "client/linux/handler/minidump_descriptor.h"
