@@ -1,4 +1,4 @@
-package com.enjoy.crash2;
+package com.vance.crash2;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.enjoy.crash2.test", appContext.getPackageName());
+        assertEquals("com.vance.crash2.test", appContext.getPackageName());
     }
 }

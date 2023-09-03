@@ -5,7 +5,7 @@
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_enjoy_crash2_CrashReport_testNativeCrash(JNIEnv *env, jclass clazz) {
+Java_com_vance_crash2_CrashReport_testNativeCrash(JNIEnv *env, jclass clazz) {
 
     __android_log_print(ANDROID_LOG_INFO, "native", "xxxxxxxxxx");
 
@@ -23,7 +23,7 @@ bool DumpCallback(const google_breakpad::MinidumpDescriptor &descriptor,
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_enjoy_crash2_CrashReport_initNativeCrash(JNIEnv *env, jclass clazz, jstring path_) {
+Java_com_vance_crash2_CrashReport_initNativeCrash(JNIEnv *env, jclass clazz, jstring path_) {
     const char *path = env->GetStringUTFChars(path_, 0);
 
     __android_log_print(ANDROID_LOG_INFO, "native", "===> %s", path);

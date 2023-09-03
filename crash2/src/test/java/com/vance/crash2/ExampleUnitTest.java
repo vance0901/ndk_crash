@@ -1,4 +1,4 @@
-package com.enjoy.crash2;
+package com.vance.crash2;
 
 import org.junit.Test;
 
